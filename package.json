@@ -1,7 +1,7 @@
 {
-  "name": "vue-toast-notification",
+  "name": "vue-toast-notification-x",
   "version": "2.0.1",
-  "description": "Vue.js toast notification plugin",
+  "description": "Vue.js toast notification plugin, Degica fork of original by ankurk91",
   "main": "dist/index.js",
   "types": "./types/toast.d.ts",
   "browser": "dist/index.min.js",
@@ -25,9 +25,9 @@
   "author": "ankurk91",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ankurk91/vue-toast-notification/issues"
+    "url": "https://github.com/degica/vue-toast-notification/issues"
   },
-  "homepage": "https://github.com/ankurk91/vue-toast-notification",
+  "homepage": "https://github.com/degica/vue-toast-notification",
   "scripts": {
     "test": "jest",
     "test:watch": "yarn run test --watch --notify",

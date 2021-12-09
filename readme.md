@@ -1,11 +1,13 @@
-# Vue Toast Notification
+# Vue Toast Notification (Degica version)
 
-[![downloads](https://badgen.net/npm/dt/vue-toast-notification)](https://npm-stat.com/charts.html?package=vue-toast-notification&from=2019-11-01)
-[![js-delivr](https://data.jsdelivr.com/v1/package/npm/vue-toast-notification/badge?style=rounded)](https://www.jsdelivr.com/package/npm/vue-toast-notification)
-[![npm-version](https://badgen.net/npm/v/vue-toast-notification)](https://www.npmjs.com/package/vue-toast-notification)
-[![github-tag](https://badgen.net/github/tag/ankurk91/vue-toast-notification)](https://github.com/ankurk91/vue-toast-notification/tags)
-[![build](https://github.com/ankurk91/vue-toast-notification/workflows/build/badge.svg)](https://github.com/ankurk91/vue-toast-notification/actions)
-[![license](https://badgen.net/github/license/ankurk91/vue-toast-notification)](https://yarnpkg.com/en/package/vue-toast-notification)
+This is a modification of [ankurk91/vue-toast-notification](https://github.com/ankurk91/vue-toast-notification). There is one main difference: this version contains an explicit "X" button to close the toasts.
+
+[![downloads](https://badgen.net/npm/dt/vue-toast-notification)](https://npm-stat.com/charts.html?package=vue-toast-notification-x&from=2019-11-01)
+[![js-delivr](https://data.jsdelivr.com/v1/package/npm/vue-toast-notification-x/badge?style=rounded)](https://www.jsdelivr.com/package/npm/vue-toast-notification-x)
+[![npm-version](https://badgen.net/npm/v/vue-toast-notification-x)](https://www.npmjs.com/package/vue-toast-notification-x)
+[![github-tag](https://badgen.net/github/tag/degica/vue-toast-notification)](https://github.com/degica/vue-toast-notification/tags)
+[![build](https://github.com/degica/vue-toast-notification/workflows/build/badge.svg)](https://github.com/degica/vue-toast-notification/actions)
+[![license](https://badgen.net/github/license/degica/vue-toast-notification)](https://yarnpkg.com/en/package/vue-toast-notification-x)
 ![ts](https://badgen.net/badge/ready/TypeScript/blue)
 
 Yet another Vue.js Toast notification plugin.
@@ -23,10 +25,10 @@ Yet another Vue.js Toast notification plugin.
 
 ```bash
 # yarn
-yarn add vue-toast-notification@^2.0
+yarn add vue-toast-notification-x@^2.0
 
 # npm
-npm install vue-toast-notification@^2.0
+npm install vue-toast-notification-x@^2.0
 ```
 
 ## Usage
@@ -61,7 +63,7 @@ The API methods accepts these options:
 |  type            | String              | `success`            |  One of `success`, `info`, `warning`, `error`, `default`  |
 |  position        | String              | `bottom-right`       |  One of `top`, `bottom`, `top-right`, `bottom-right`,`top-left`, `bottom-left`  |
 |  duration        | Number              | `3000`               |  Visibility duration in milliseconds, set to `0` to keep toast visible    |
-|  dismissible     | Boolean             | `true`               |  Allow user dismiss by clicking    |
+|  dismissible     | Boolean             | `true`               |  Add a "close" button and allow users to dismiss by clicking it   |
 |  onClick         | Function            | --                   |  Do something when user clicks    |
 |  onDismiss       | Function            | --                   |  Do something after toast gets dismissed    |
 |  queue           | Boolean             | `false`              |  Wait for existing to dismiss before showing new     |
