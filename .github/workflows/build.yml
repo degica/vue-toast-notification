@@ -10,8 +10,6 @@ on:
     branches:
       - master
       - dev
-  schedule:
-    - cron: '0 0 15 * *'
 
 jobs:
   build:
@@ -21,7 +19,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x]
+        node-version: [14.x, 16.x]
 
     steps:
       - uses: actions/checkout@v2
@@ -37,13 +35,3 @@ jobs:
       - run: yarn test --verbose
       - run: yarn run build
       - run: yarn run docs
-
-      - name: Deploy to gh-pages
-        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
-        uses: JamesIves/github-pages-deploy-action@releases/v4
-        with:
-          token: ${{ secrets.ACCESS_TOKEN }}
-          branch: gh-pages
-          folder: docs
-          single-commit: true
-          clean: true
