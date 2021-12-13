@@ -14,5 +14,8 @@ exports[`Toast component renders when active 1`] = `
   >
     Test message
   </p>
+  <button>
+    ×
+  </button>
 </div>
 `;
