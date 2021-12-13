@@ -1,6 +1,6 @@
 (self["webpackChunkvue_toast_notification_x"] = self["webpackChunkvue_toast_notification_x"] || []).push([[179],{
 
-/***/ 988:
+/***/ 122:
 /***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -9,7 +9,7 @@
 var runtime_dom_esm_bundler = __webpack_require__(963);
 // EXTERNAL MODULE: ./node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js
 var runtime_core_esm_bundler = __webpack_require__(252);
-;// CONCATENATED MODULE: ./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[6].use[0]!./src/js/Component.vue?vue&type=template&id=4763de96
+;// CONCATENATED MODULE: ./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[6].use[0]!./src/js/Component.vue?vue&type=template&id=b91b7be0
 
 
 const _hoisted_1 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createVNode */.Wm)("div", {
@@ -17,6 +17,8 @@ const _hoisted_1 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createVNode */.Wm)
 }, null, -1);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
+  const _component_CloseX = (0,runtime_core_esm_bundler/* resolveComponent */.up)("CloseX");
+
   return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)(runtime_dom_esm_bundler/* Transition */.uT, {
     "enter-active-class": _ctx.transition.enter,
     "leave-active-class": _ctx.transition.leave
@@ -35,11 +37,11 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       key: 0,
       class: "v-toast__close",
       onClick: _cache[1] || (_cache[1] = (...args) => _ctx.dismiss && _ctx.dismiss(...args))
-    }, "×")) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)], 34), [[runtime_dom_esm_bundler/* vShow */.F8, _ctx.isActive]])]),
+    }, [(0,runtime_core_esm_bundler/* createVNode */.Wm)(_component_CloseX)])) : (0,runtime_core_esm_bundler/* createCommentVNode */.kq)("", true)], 34), [[runtime_dom_esm_bundler/* vShow */.F8, _ctx.isActive]])]),
     _: 1
   }, 8, ["enter-active-class", "leave-active-class"]);
 }
-;// CONCATENATED MODULE: ./src/js/Component.vue?vue&type=template&id=4763de96
+;// CONCATENATED MODULE: ./src/js/Component.vue?vue&type=template&id=b91b7be0
 
 ;// CONCATENATED MODULE: ./src/js/helpers.js
 
@@ -102,7 +104,45 @@ class Timer {
 ;// CONCATENATED MODULE: ./src/js/bus.js
 
 /* harmony default export */ const bus = (mitt());
+;// CONCATENATED MODULE: ./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[6].use[0]!./src/js/CloseX.vue?vue&type=template&id=6da46b42&scoped=true
+
+
+const _withId = /*#__PURE__*/(0,runtime_core_esm_bundler/* withScopeId */.HX)("data-v-6da46b42");
+
+(0,runtime_core_esm_bundler/* pushScopeId */.dD)("data-v-6da46b42");
+
+const CloseXvue_type_template_id_6da46b42_scoped_true_hoisted_1 = {
+  width: "21",
+  height: "21",
+  viewBox: "0 0 21 21",
+  fill: "none",
+  xmlns: "http://www.w3.org/2000/svg"
+};
+
+const _hoisted_2 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createVNode */.Wm)("path", {
+  "fill-rule": "evenodd",
+  "clip-rule": "evenodd",
+  d: "M4.43388 5.18449C4.82441 4.79397 5.45757 4.79397 5.8481 5.18449L10.141 9.47739L14.4339 5.18449C14.8244 4.79397 15.4576 4.79397 15.8481 5.18449C16.2386 5.57502 16.2386 6.20818 15.8481 6.59871L11.5552 10.8916L15.8481 15.1845C16.2386 15.575 16.2386 16.2082 15.8481 16.5987C15.4576 16.9892 14.8244 16.9892 14.4339 16.5987L10.141 12.3058L5.8481 16.5987C5.45757 16.9892 4.82441 16.9892 4.43388 16.5987C4.04336 16.2082 4.04336 15.575 4.43388 15.1845L8.72678 10.8916L4.43388 6.59871C4.04336 6.20818 4.04336 5.57502 4.43388 5.18449Z"
+}, null, -1);
+
+(0,runtime_core_esm_bundler/* popScopeId */.Cn)();
+
+const CloseXvue_type_template_id_6da46b42_scoped_true_render = /*#__PURE__*/_withId((_ctx, _cache) => {
+  return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)("svg", CloseXvue_type_template_id_6da46b42_scoped_true_hoisted_1, [_hoisted_2]);
+});
+;// CONCATENATED MODULE: ./src/js/CloseX.vue?vue&type=template&id=6da46b42&scoped=true
+
+;// CONCATENATED MODULE: ./src/js/CloseX.vue
+
+const script = {}
+
+;
+script.render = CloseXvue_type_template_id_6da46b42_scoped_true_render
+script.__scopeId = "data-v-6da46b42"
+
+/* harmony default export */ const CloseX = (script);
 ;// CONCATENATED MODULE: ./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[6].use[0]!./src/js/Component.vue?vue&type=script&lang=js
+
 
 
 
@@ -110,6 +150,9 @@ class Timer {
 
 /* harmony default export */ const Componentvue_type_script_lang_js = ((0,runtime_core_esm_bundler/* defineComponent */.aZ)({
   name: 'toast',
+  components: {
+    CloseX: CloseX
+  },
   props: {
     message: {
       type: String,
@@ -368,7 +411,7 @@ var shared_esm_bundler = __webpack_require__(577);
 
 const Appvue_type_template_id_710072ef_hoisted_1 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createStaticVNode */.uE)("<nav class=\"navbar navbar-expand-lg navbar navbar-light bg-white shadow-sm mb-3\"><span class=\"navbar-brand mb-0\">Vue.js Toast</span><ul class=\"navbar-nav ml-auto\"><li class=\"nav-item\"><a class=\"nav-link\" href=\"https://github.com/ankurk91/vue-toast-notification\" target=\"_blank\"> GitHub</a></li></ul></nav>", 1);
 
-const _hoisted_2 = {
+const Appvue_type_template_id_710072ef_hoisted_2 = {
   class: "container"
 };
 const _hoisted_3 = {
@@ -461,7 +504,7 @@ const _hoisted_28 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createVNode */.Wm
 }, "@ankurk91")], -1);
 
 function Appvue_type_template_id_710072ef_render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)("div", null, [Appvue_type_template_id_710072ef_hoisted_1, (0,runtime_core_esm_bundler/* createVNode */.Wm)("main", _hoisted_2, [(0,runtime_core_esm_bundler/* createVNode */.Wm)("div", _hoisted_3, [(0,runtime_core_esm_bundler/* createVNode */.Wm)("div", _hoisted_4, [(0,runtime_core_esm_bundler/* createVNode */.Wm)("div", _hoisted_5, [(0,runtime_core_esm_bundler/* createVNode */.Wm)("form", {
+  return (0,runtime_core_esm_bundler/* openBlock */.wg)(), (0,runtime_core_esm_bundler/* createBlock */.j4)("div", null, [Appvue_type_template_id_710072ef_hoisted_1, (0,runtime_core_esm_bundler/* createVNode */.Wm)("main", Appvue_type_template_id_710072ef_hoisted_2, [(0,runtime_core_esm_bundler/* createVNode */.Wm)("div", _hoisted_3, [(0,runtime_core_esm_bundler/* createVNode */.Wm)("div", _hoisted_4, [(0,runtime_core_esm_bundler/* createVNode */.Wm)("div", _hoisted_5, [(0,runtime_core_esm_bundler/* createVNode */.Wm)("form", {
     class: "card-body",
     method: "post",
     onSubmit: _cache[9] || (_cache[9] = (0,runtime_dom_esm_bundler/* withModifiers */.iM)((...args) => $options.show && $options.show(...args), ["prevent"]))
@@ -602,8 +645,9 @@ Appvue_type_script_lang_js.render = Appvue_type_template_id_710072ef_render
 
 
 
+ //import '../src/themes/default/index.scss'
+//import '../src/themes/sugar/index.scss'
 
- //import '../src/themes/sugar/index.scss'
 
 
 const app = (0,runtime_dom_esm_bundler/* createApp */.ri)(App);
@@ -617,7 +661,7 @@ app.mount('#app');
 /******/ "use strict";
 /******/ 
 /******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-/******/ __webpack_require__.O(0, [736], () => (__webpack_exec__(988)));
+/******/ __webpack_require__.O(0, [736], () => (__webpack_exec__(122)));
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);
