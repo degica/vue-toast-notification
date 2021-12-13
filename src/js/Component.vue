@@ -13,7 +13,11 @@
       @click="whenClicked">
       <div class="v-toast__icon"></div>
       <p class="v-toast__text" v-html="message"></p>
-      <button v-if="dismissible" @click="dismiss">&times;</button>
+      <button
+        class="v-toast__close"
+        v-if="dismissible"
+        @click="dismiss"
+      >&times;</button>
     </div>
   </transition>
 </template>
