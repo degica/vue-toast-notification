@@ -22,6 +22,8 @@
     color: #fff;
     min-height: 3em;
 
+    --text-color: white;
+
     // Colors
     @each $color, $value in $toast-colors {
       &--#{$color} {
@@ -44,6 +46,9 @@
 
     // Close button
     button.v-toast__close {
+      display: flex;
+      align-items: center;
+
       background: none;
       border: none;
       font-weight: bold;
