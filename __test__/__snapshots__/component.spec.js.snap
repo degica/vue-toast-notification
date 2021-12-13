@@ -14,7 +14,9 @@ exports[`Toast component renders when active 1`] = `
   >
     Test message
   </p>
-  <button>
+  <button
+    class="v-toast__close"
+  >
     ×
   </button>
 </div>
