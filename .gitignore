@@ -52,6 +52,6 @@ composer.phar
 *.tgz
 /dist/
 /demo/
-/docs/
+# /docs/ <- not for GH pages!!
 /tmp/
 /coverage/
