@@ -1,0 +1,11 @@
+.v-toast {
+  &__item {
+    // Foreground Colors
+    @each $color, $value in $toast-texts {
+      &--#{$color} {
+        color: $value;
+        --text-color: #{$value};
+      }
+    }
+  }
+}

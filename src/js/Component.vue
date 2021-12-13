@@ -17,7 +17,9 @@
         class="v-toast__close"
         v-if="dismissible"
         @click="dismiss"
-      >&times;</button>
+      >
+        <CloseX />
+      </button>
     </div>
   </transition>
 </template>
@@ -28,9 +30,11 @@ import {removeElement} from './helpers.js';
 import Timer from "./timer.js";
 import Positions from './positions.js'
 import eventBus from './bus.js'
+import CloseX from './CloseX.vue'
 
 export default defineComponent({
   name: 'toast',
+  components: { CloseX },
   props: {
     message: {
       type: String,

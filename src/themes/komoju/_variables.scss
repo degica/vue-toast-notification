@@ -1,0 +1,23 @@
+$toast-colors: () !default;
+$toast-colors: map-merge(
+    (
+      "success": #EAFFF5,
+      "info": #EFF6FF,
+      "warning": #FFFAE8,
+      "error": #FFF1F1,
+      "default": #EFF6FF
+    ),
+    $toast-colors
+);
+
+$toast-texts: () !default;
+$toast-texts: map-merge(
+    (
+      "success": #1A7B18,
+      "info": #1767AF,
+      "warning": #92400E,
+      "error": #991B1B,
+      "default": #1767AF
+    ),
+    $toast-texts
+);
