@@ -21,7 +21,6 @@
     opacity: 0.92;
     color: #fff;
     min-height: 3em;
-    cursor: pointer;
 
     // Colors
     @each $color, $value in $toast-colors {
@@ -41,6 +40,17 @@
 
     &.v-toast__item--top-left, &.v-toast__item--bottom-left {
       align-self: flex-start;
+    }
+
+    // Close button
+    button {
+      background: #b7b7b7;
+      color: black;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      width: 32px;
+      align-self: stretch;
     }
   }
 

@@ -13,6 +13,7 @@
       @click="whenClicked">
       <div class="v-toast__icon"></div>
       <p class="v-toast__text" v-html="message"></p>
+      <button v-if="dismissible" @click="dismiss">&times;</button>
     </div>
   </transition>
 </template>
@@ -146,9 +147,7 @@ export default defineComponent({
     },
 
     whenClicked() {
-      if (!this.dismissible) return;
       this.onClick.apply(null, arguments);
-      this.dismiss()
     },
 
     toggleTimer(newVal) {
