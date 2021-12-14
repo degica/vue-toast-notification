@@ -1,6 +1,6 @@
 {
   "name": "vue-toast-notification-x",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Vue.js toast notification plugin, Degica fork of original by ankurk91",
   "main": "dist/index.js",
   "types": "./types/toast.d.ts",

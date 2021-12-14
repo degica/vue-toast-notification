@@ -24,6 +24,7 @@ module.exports = {
     'index.min': './src/index.js',
     'theme-default': './src/themes/default/index.scss',
     'theme-sugar': './src/themes/sugar/index.scss',
+    'theme-komoju': './src/themes/komoju/index.scss',
   },
   externals: {
     'vue': {
