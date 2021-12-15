@@ -7,5 +7,12 @@
         --text-color: #{$value};
       }
     }
+
+  }
+
+  &__close {
+    path {
+      fill: var(--text-color);
+    }
   }
 }
